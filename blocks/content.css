@@ -1,16 +1,16 @@
-.main {
+.content {
   width: 830px;
   text-align: start;
 }
 
 @media screen and (max-width: 1024px) {
-  .main {
+  .content {
     width: 720px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .main {
+  .content {
     width: 320px;
   }
 }
