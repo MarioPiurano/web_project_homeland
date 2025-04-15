@@ -56,7 +56,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-decoration: none;
   color: #ffffff;
 }
@@ -68,17 +67,16 @@
   text-overflow: ellipsis;
 }
 
-.place__heading__title {
+.place__heading_title {
   font-family: Inter;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
   text-transform: uppercase;
   margin: 0 auto 8px;
 }
 
-.place__heading__text {
+.place__heading_text {
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
@@ -92,7 +90,7 @@
   box-sizing: border-box;
 }
 
-.place__text__paragraph {
+.place__text_paragraph {
   width: 100%;
   height: auto;
   font-family: Inter;
@@ -147,7 +145,7 @@
     width: 100%;
   }
 
-  .place__text__paragraph {
+  .place__text_paragraph {
     font-size: 16px;
   }
 }
