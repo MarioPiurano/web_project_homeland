@@ -3,9 +3,16 @@
   margin-top: 34px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .logo {
     width: 254px;
     margin-top: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .logo {
+      with: 100%;
+      max-width: 188px;
+    }
   }
 }

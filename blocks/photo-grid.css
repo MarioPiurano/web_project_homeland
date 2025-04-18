@@ -33,6 +33,8 @@
     max-width: 288px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 0;
   }
 
   .photo-grid__item {

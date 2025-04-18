@@ -7,3 +7,17 @@
   text-align: center;
   color: white;
 }
+
+/* @media screen and (max-width: 1184px) {
+  .page {
+    max-width: 720px;
+    width: 100%;
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .page {
+    max-width: 320px;
+    width: 100%;
+  }
+} */

@@ -4,6 +4,7 @@
   margin-top: 92px;
   margin-bottom: 90px;
   flex-direction: column;
+  align-self: center;
 }
 
 .place__content {
@@ -17,7 +18,7 @@
     "item1 item4"
     "item2 item5"
     "item3 item5";
-  margin: 80px auto;
+  /* margin: 80px auto; */
 }
 
 .place__title {
@@ -65,6 +66,7 @@
   box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;
+  align-self: end;
 }
 
 .place__heading_title {
@@ -116,10 +118,12 @@
   );
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .place {
-    max-width: 720px;
+    max-width: 1184px;
+    width: 100%;
     margin: 0;
+    align-content: center;
   }
 
   .place__content {
@@ -150,9 +154,10 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 768px) {
   .place {
-    max-width: 320px;
+    max-width: 768px;
+    width: 100%;
     row-gap: 50px;
   }
 
