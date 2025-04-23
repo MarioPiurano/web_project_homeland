@@ -118,12 +118,13 @@
   );
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 768px) {
   .place {
-    max-width: 1184px;
+    max-width: 768px;
     width: 100%;
     margin: 0;
     align-content: center;
+    margin: 24px;
   }
 
   .place__content {
@@ -131,11 +132,13 @@
     grid-template-columns: 340px 1fr;
     grid-template-rows: 68px 1fr 1fr;
     gap: 28px;
-    grid-template-areas:
+    /* grid-template-areas:
       "item1 item4"
       "item2 item5"
-      "item3 item5";
+      "item3 item5"; */
     margin: 72px auto;
+    max-width: 720px;
+    width: 100%;
   }
 
   .place__title {
@@ -154,15 +157,18 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 544px) {
   .place {
-    max-width: 768px;
+    max-width: 544px;
     width: 100%;
     row-gap: 50px;
+    box-sizing: content-box;
   }
 
   .place__content {
-    margin-bottom: 65px;
+    max-width: 320px;
+    height: 100%;
+    /* margin-bottom: 65px; */
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
     gap: 30px 16px;
@@ -172,30 +178,55 @@
       "item3"
       "item4"
       "item5";
-    margin: 72px auto;
+    /* margin: 72px auto; */
+    justify-content: center;
+    column-gap: 0;
   }
 
   .place__title {
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
+    width: 100%;
+    grid-area: item1;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .place__heading {
     margin: 0;
-    grid-area: item3;
+    grid-area: item2;
+    max-width: 288px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .place__photo {
     max-width: 320px;
     width: 100%;
+    grid-area: item3;
   }
 
   .place__text {
     font-size: 16px;
     grid-area: item4;
     row-gap: 25px;
+    max-width: 288px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
+
   .place__button {
     grid-area: item5;
+    max-width: 288px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
   }
 }

@@ -1,7 +1,10 @@
 .lead {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   align-items: center;
+  /* box-sizing: border-box; */
+  max-width: 984px;
+  width: 100%;
 }
 
 .lead__image {
@@ -16,7 +19,7 @@
   font-size: 96px;
   line-height: 100px;
   text-align: center;
-  max-width: 320px;
+  max-width: 720px;
   width: 100%;
   margin-top: 91.06px;
   margin-bottom: 32px;
@@ -69,10 +72,10 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    width: 288px;
+    /* width: 288px; */
   }
   .lead {
-    max-width: 320px;
+    max-width: 7680px;
     width: 100%;
   }
   .lead__image {
