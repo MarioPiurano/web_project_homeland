@@ -1,16 +1,21 @@
 .content {
-  width: 830px;
+  max-width: 830px;
+  width: 100%;
   text-align: start;
-}
-
-@media screen and (max-width: 1184px) {
-  .content {
-    width: 768px;
-  }
+  margin: auto;
+  /* box-sizing: border-box; */
 }
 
 @media screen and (max-width: 768px) {
   .content {
-    width: 320px;
+    max-width: 768px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content {
+    max-width: 544px;
+    width: 100%;
   }
 }

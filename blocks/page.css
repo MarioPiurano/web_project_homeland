@@ -6,7 +6,7 @@
   font-family: Inter, Arial, Helvetica, sans-serif;
   text-align: center;
   color: white;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: auto;
 }
@@ -18,9 +18,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .page {
-    max-width: 320px;
+    max-width: 544px;
     width: 100%;
   }
 }
